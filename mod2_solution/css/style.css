@@ -2,7 +2,7 @@
 /* Base style */
 * {
 	box-sizing: border-box;
-	margin: 1%;
+	margin: 1% 1% 1% 1%;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-weight: bold;
 	font-size: 24px;
@@ -26,6 +26,7 @@ div {
 p {
 	font-size: .5em;
 	width: 98%;
+	min-width: 70px;
   	margin-right: auto;
   	margin-left: auto;
   	color: black;
@@ -65,16 +66,16 @@ p {
 	width: 98%
 }
 
-/* Large devices only */
-@media (min-width: 1200px) {
+/* Desktop view only */
+@media (min-width: 992px) {
 	.col-lg {
 		float:left;
 		width: 31%;
 	}
 }
 
-/* Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+/* Tablet view only **********/
+@media (min-width: 768px) and (max-width: 991px) {
 	.col-md-t, .col-md-b {
 		float: left;
 	}
