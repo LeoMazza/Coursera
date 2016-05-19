@@ -71,6 +71,7 @@ p {
 	.col-lg {
 		float:left;
 		width: 31%;
+		height: 525px;
 	}
 }
 
@@ -81,6 +82,7 @@ p {
 	}
 	.col-md-t {
 		width: 48%;
+		height: 425px;
 	}
 	.col-md-b {
 		width: 98%;
