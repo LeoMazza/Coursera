@@ -10,10 +10,23 @@ h1 p {
 	text-align: left;
 }
 
-header, div {
-	border: 1px solid black;
+h2 {
+	margin: 70px 0px 10px 0px;
+}
+
+div {
 	background-color: grey;
 }
 
-.navbar_brand{
+#header-nav {
+	border: 2px solid black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.content {
+	margin: 20px 5% 20px 5%;
 }
