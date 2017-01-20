@@ -1,0 +1,30 @@
+*, h1, h2, h3 {
+	box-sizing: border-box;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	color: black;
+}
+
+#header-nav {
+	border: 2px solid black;
+	background-color: grey;
+}
+
+.navbar-default .navbar-nav li a {
+	color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.content {
+	background-color: grey;
+	margin-top: 20px;
+}
+
+.top {
+	text-align: right;
+	margin: 0px 10px 10px 0px;
+}
