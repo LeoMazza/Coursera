@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *, h1, h2, h3 {
 	box-sizing: border-box;
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -27,4 +28,41 @@
 .top {
 	text-align: right;
 	margin: 0px 10px 10px 0px;
+=======
+* {
+	box-sizing: border-box;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+h1 p {
+	text-align: left;
+}
+
+h2 {
+	margin: 70px 0px 10px 0px;
+}
+
+div {
+	background-color: grey;
+}
+
+#header-nav {
+	border: 2px solid black;
+}
+
+.navbar-default .navbar-nav li a {
+	color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.content {
+	margin: 20px 5% 20px 5%;
+>>>>>>> 6bdac0f072cc84479e4e958513dd9954740b48fa
 }
